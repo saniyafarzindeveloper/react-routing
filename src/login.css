@@ -1,0 +1,127 @@
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        display: flex;
+        overflow: auto;
+        min-height: 100vh;
+        /* overflow: hidden; */
+    }
+    .container2, .container1{
+        width: 100%;
+    }
+    /* .container2{
+        height: 100%;
+    } */
+    /* .container1,
+    .container2 {
+        
+        display: inline-block;
+    } */
+/* 
+    .container1 {
+        position: relative;
+        left: 40px;
+        bottom: 30px
+    } */
+
+    .btm-left1 {
+        position: absolute;
+        bottom: 140px;
+        left: 96px;
+        color: white;
+    }
+
+    img {
+        height: 100%;
+        border-radius: 20px;
+        width: 100%;
+        /* margin: 40px; */
+    }
+
+    #pw,
+    #username, #email {
+        border-radius: 30px;
+    }
+
+    .login-btn {
+        /* position: relative; */
+        border: 0px;
+        border-radius: 30px;
+        width: 150px;
+        background-color: #f7785b;
+        /* left: 150px;
+        top: 40px; */
+    }
+
+    /* .container2 {
+        position: relative;
+        top: 188px;
+        width: 400px;
+        left: 270px */
+    
+    
+    .welcome-line {
+        text-align: center;
+    }
+
+    .toggle {
+        border: 1px solid #b8b6b6;
+        width: 200px;
+        border-radius: 30px;
+        height: 39px;
+        /* left: 200px; */
+        background-color: #b8b6b6;
+        margin-left: 100px;
+    }
+
+    .tog-log,
+    .tog-reg {
+        display: inline-block;
+        color: black;
+        width: 90px;
+        /* width: 100px; */
+    }
+    .tog-log{
+        border: 1px solid #f97153;
+        border-radius: 30px;
+        /* padding: 0px 5px 2px 5px; */
+        background-color: #f97153;
+        text-align: center;
+    }
+    /* .tog-log {
+        border: 1px solid #f97153;
+        border-radius: 30px;
+        width: 90px;
+        text-align: center;
+        background-color: #f97153;
+    } */
+    .container2{
+        /* height: 100%; */
+        min-height: 100vh;
+        /* margin: 130px 0px 80px 50px; */
+        display: flex;
+        align-items: center;
+        padding: 50px;
+    }
+    input {
+        height: 50px;
+    }
+    .wrapper{
+        position: relative;
+        height: 100%;
+        padding: 50px 50px 0px 50px;
+    }
+    .login{
+        padding: 10px;
+        text-align: center;
+        padding-right: 30px;
+    }
+    .field-names{
+        text-align: left;
+    }
+    .btn{
+        display: flex;
+        justify-content: end;
+        text-align: right;
+    }

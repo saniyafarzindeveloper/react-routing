@@ -1,0 +1,110 @@
+
+    /* body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } */
+
+    .tab-heading {
+        position: relative;
+    }
+
+    .tab-p {
+        color: rgb(154, 152, 152);
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .tab-h3 {
+        color:  rgb(154, 152, 152);
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .tab-refresh,
+    .tab-arrow,
+    .tab-dots {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tab-icons {
+        position: absolute;
+        right: 190px;
+        top: 50px;
+    }
+
+    .tab-th {
+        font-weight: 500;
+        font-size: 19px;
+        
+    }
+
+    .tog {
+        width: 40px;
+        height: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+    .tab-outer-cont{
+        width: 90%;
+        height: 100%;
+        margin-left: 40px;
+    }
+    .tab-new-table{
+        margin-left: 70px;
+        width: 1200px;
+        /* width: 100%; */
+        border: 0.5px solid rgb(204, 204, 204);
+    }
+    .tab-th{
+        background-color: #fff;
+    }
+    .tab-td{
+        background-color:#fff;
+        height: 20px;
+        font-size: 17px;
+        /* border: 0.5px solid grey */
+    }
+    .tab-thead{
+        height: 50px;
+        padding-bottom: 5px;
+    }
+    .tab-highlight{
+        color: black;
+    }
+    .tab-switch{
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 28px;
+        margin: 0px 10px;
+    }
+    .tab-slider{
+         position:absolute;
+         cursor: pointer;
+         top: 0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         background-color: #ccc;
+         transition: 2s;
+         border-radius: 34px;
+    }
+    .tab-switch input{display:none}
+
+    .tab-slider:before{
+        position:absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        left: 5px;
+        bottom: 5px ;
+        background-color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+    }
+    input:checked + .tab-slider{
+        background-color:chartreuse;
+    }
+    input:checked + .tab-slider:before{
+        transform:translateX(20px);
+    }
+
